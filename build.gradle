@@ -167,7 +167,7 @@ android {
         }
     }
     defaultConfig {
-        applicationId = "org.courville.nova"
+        applicationId = "org.courville.nova.debug"
         generatedDensities = []
         minSdkVersion 23
         targetSdkVersion 36

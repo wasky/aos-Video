@@ -196,7 +196,7 @@
         <!-- Provides search suggestions for video search. Exported for system search integration. -->
         <provider
             android:name="com.archos.mediacenter.video.browser.SearchProviderVideo"
-            android:authorities="browser.SearchProviderVideocommunity"
+            android:authorities="${applicationId}.browser.SearchProviderVideocommunity"
             android:exported="true"
             tools:ignore="ExportedContentProvider" />
 
@@ -1246,9 +1246,9 @@
         <!-- ContentProvider for media -->
         <provider
             android:name="com.archos.mediaprovider.video.VideoProvider"
-            android:authorities="com.archos.media.videocommunity;com.archos.media.scrapercommunity"
+            android:authorities="com.archos.media.videocommunity2;com.archos.media.scrapercommunity2"
             android:exported="true"
-            tools:ignore="ExportedContentProvider" />
+            tools:ignore="ExportedContentProvider"/>
         <!-- BroadcastReceiver to trigger database import -->
         <receiver
             android:name="com.archos.mediaprovider.video.VideoStoreImportReceiver"
